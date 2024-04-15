@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-card-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-heading {
+  color: #a35200;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.heads-tails-text {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.coin-image {
+  height: 20vh;
+  width: 15vw;
+}
+.coin-toss-btn {
+  background-color: #f9d423;
+  color: #a35200;
+  height: 30px;
+  width: 100px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 400;
+  border-width: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-text {
+  color: #475569;
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 26px;
+}
